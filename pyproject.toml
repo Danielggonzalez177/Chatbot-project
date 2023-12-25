@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "chatbot"
+version = "0.1.0"
+description = "Data Science project to train"
+authors = ["Danielggonzalez177 <daniel.gomez@uc.cl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+tensorflow-io-gcs-filesystem = "0.31.0"
+tensorflow = "2.14.0"
+numpy = "^1.26.2"
+nltk = "^3.8.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+isort = "^5.13.2"
+flake8 = "^6.1.0"
+flake8-isort = "^6.1.1"
+ipykernel = "^6.27.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

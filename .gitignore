@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+.venv/
+__pychache__/
+notebooks/
+testing_init.py
+
+.coverage
+.DS_Store
